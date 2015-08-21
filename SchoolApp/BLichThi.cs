@@ -1,15 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.IO;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
+using System.Xml.Linq;
 
 namespace SchoolApp
 {
     class BLichThi
     {
-        List<LichThi> list;
+       public static List<LichThi> list;
         List<LichThi> getAll()
         {
             list = new List<LichThi>();
@@ -41,5 +45,34 @@ namespace SchoolApp
             }
 
         }
+
+        public  static List<LichThi> LoadDataFromSV(string id)
+        {
+            list = new List<LichThi>();
+            XmlDocument doc = new XmlDocument();
+           
+            doc.Load("http://localhost:56715/api/lichthi");
+            XmlElement root = doc.DocumentElement;
+
+           
+           
+
+            foreach (XmlNode node in root.ChildNodes)
+            {
+                LichThi lt = new LichThi();
+                lt.GhepThi = node.ChildNodes[0].InnerText.Trim();
+                lt.GioBD = node.ChildNodes[1].InnerText.Trim();
+                lt.MaMH = node.ChildNodes[3].InnerText.Trim();
+                lt.NgayThi = node.ChildNodes[4].InnerText.Trim();
+                lt.PhongThi = node.ChildNodes[5].InnerText.Trim();
+                lt.SoLuong = int.Parse(node.ChildNodes[6].InnerText.Trim());
+                lt.SoPhut = int.Parse(node.ChildNodes[7].InnerText.Trim());
+                lt.ToThi = node.ChildNodes[9].InnerText.Trim();
+                list.Add(lt);
+            }
+           
+            return list;
+        }
+
     }
 }

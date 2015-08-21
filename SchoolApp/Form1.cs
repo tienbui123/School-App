@@ -16,5 +16,10 @@ namespace SchoolApp
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            grid1.DataSource = BLichThi.LoadDataFromSV("1");
+        }
     }
 }

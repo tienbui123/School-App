@@ -1,1 +1,12 @@
 c:\users\administrator\documents\visual studio 2012\Projects\SchoolApp\SchoolApp\bin\Debug\SchoolApp.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SchoolApp\School-App\SchoolApp\bin\Debug\SchoolApp.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SchoolApp\School-App\SchoolApp\obj\Debug\SchoolApp.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SchoolApp\School-App\SchoolApp\obj\Debug\SchoolApp.Form1.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SchoolApp\School-App\SchoolApp\obj\Debug\SchoolApp.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SchoolApp\School-App\SchoolApp\obj\Debug\SchoolApp.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SchoolApp\School-App\SchoolApp\bin\Debug\SchoolApp.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SchoolApp\School-App\SchoolApp\bin\Debug\SchoolApp.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SchoolApp\School-App\SchoolApp\bin\Debug\System.Data.SQLite.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SchoolApp\School-App\SchoolApp\bin\Debug\System.Data.SQLite.xml
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SchoolApp\School-App\SchoolApp\obj\Debug\SchoolApp.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SchoolApp\School-App\SchoolApp\obj\Debug\SchoolApp.pdb
