@@ -27,7 +27,7 @@ namespace SchoolApp
                 sql_con = new SQLiteConnection("Data Source=SchoolDB.sqlite;Version=3;");
                 sql_con.Open();
 
-                string sql = "create table MonHoc (MaMH varchar(20),TenMH varchar(20),SoTC int,TileThi int)";
+                string sql = "create table MonHoc (MaMH varchar(20),TenMH varchar(20),SoTC varchar(20),TileThi varchar(20))";
                 SQLiteCommand command = new SQLiteCommand(sql, sql_con);
                 command.ExecuteNonQuery();
 
@@ -39,7 +39,7 @@ namespace SchoolApp
                 command = new SQLiteCommand(sql, sql_con);
                 command.ExecuteNonQuery();
 
-                sql = "create table LichHoc (Id varchar(20,MaMH varchar(20),NhomMH varchar(20),MaLop varchar(20),ThoigianBD datetime,ThoigianKT datetime)";
+                sql = "create table LichHoc (Id varchar(20,MaMH varchar(20),NhomMH varchar(20),MaLop varchar(20),ThoigianBD  varchar(20),ThoigianKT  varchar(20))";
                 command = new SQLiteCommand(sql, sql_con);
                 command.ExecuteNonQuery();
 

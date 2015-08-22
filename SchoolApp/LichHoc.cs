@@ -44,18 +44,18 @@ namespace SchoolApp
             get { return maLop; }
             set { maLop = value; }
         }
-       
-      
-        DateTime thoigianBD;
 
-        public DateTime ThoigianBD
+
+        string thoigianBD;
+
+        public string ThoigianBD
         {
             get { return thoigianBD; }
             set { thoigianBD = value; }
         }
-        DateTime thoigianKT;
+        string thoigianKT;
 
-        public DateTime ThoigianKT
+        public string ThoigianKT
         {
             get { return thoigianKT; }
             set { thoigianKT = value; }

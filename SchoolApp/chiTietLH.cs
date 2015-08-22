@@ -22,16 +22,16 @@ namespace SchoolApp
             get { return thu; }
             set { thu = value; }
         }
-        int tietBatDau;
+        string tietBatDau;
 
-        public int TietBatDau
+        public string TietBatDau
         {
             get { return tietBatDau; }
             set { tietBatDau = value; }
         }
-        int soTiet;
+        string soTiet;
 
-        public int SoTiet
+        public string SoTiet
         {
             get { return soTiet; }
             set { soTiet = value; }

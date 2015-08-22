@@ -10,3 +10,14 @@ C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SchoolApp\School-Ap
 C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SchoolApp\School-App\SchoolApp\bin\Debug\System.Data.SQLite.xml
 C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SchoolApp\School-App\SchoolApp\obj\Debug\SchoolApp.exe
 C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SchoolApp\School-App\SchoolApp\obj\Debug\SchoolApp.pdb
+G:\Xay dung phan mem\School-App\SchoolApp\bin\Debug\SchoolApp.exe.config
+G:\Xay dung phan mem\School-App\SchoolApp\obj\Debug\SchoolApp.exe
+G:\Xay dung phan mem\School-App\SchoolApp\obj\Debug\SchoolApp.pdb
+G:\Xay dung phan mem\School-App\SchoolApp\obj\Debug\SchoolApp.csprojResolveAssemblyReference.cache
+G:\Xay dung phan mem\School-App\SchoolApp\obj\Debug\SchoolApp.Form1.resources
+G:\Xay dung phan mem\School-App\SchoolApp\obj\Debug\SchoolApp.Properties.Resources.resources
+G:\Xay dung phan mem\School-App\SchoolApp\obj\Debug\SchoolApp.csproj.GenerateResource.Cache
+G:\Xay dung phan mem\School-App\SchoolApp\bin\Debug\SchoolApp.exe
+G:\Xay dung phan mem\School-App\SchoolApp\bin\Debug\SchoolApp.pdb
+G:\Xay dung phan mem\School-App\SchoolApp\bin\Debug\System.Data.SQLite.dll
+G:\Xay dung phan mem\School-App\SchoolApp\bin\Debug\System.Data.SQLite.xml

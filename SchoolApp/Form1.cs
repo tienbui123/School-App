@@ -20,6 +20,7 @@ namespace SchoolApp
         private void Form1_Load(object sender, EventArgs e)
         {
             grid1.DataSource = BLichThi.LoadDataFromSV("1");
+            grid2.DataSource = BLichHoc.LoadDataFromSV("1");
         }
     }
 }
